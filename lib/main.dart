@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+ 
 
 void main() =>runApp(MyApp());
 
@@ -30,21 +31,51 @@ class MyDesignState extends State <MyDesign> {
         // end of appbar
         body: Container(
           decoration: BoxDecoration(
-            // color: Colors.blue,
+            color: Colors.blue,
           ),
           // end of boxdecoration
           child: Column(
             
               children: <Widget>[
+
               SizedBox(
                 height: 100
               ),
               // sizebox
               CircleAvatar(
-                radius:30,
-                child: Image.asset("merit.jpeg")
+                radius:100,
+                child: Image.asset("images/merit.jpeg") 
+                
               ),
               // circle avatar
+
+              SizedBox(
+              height: 20,
+              ),
+              // sized box
+              Text("Merit Oriaghemuoria"),
+              // text
+
+               SizedBox(
+              height: 20,
+              ),
+              // sized box
+              Text("@techEntusiast"),
+              // text
+
+               SizedBox(
+              height: 20,
+              ),
+              // sized box
+              Text("#flutterdeveloper"),
+              // text
+               SizedBox(
+              height: 40,
+              ),
+              // sized box
+              Text("Merit is a talented front end developer who specializes in converting your web projects into mobile applications"),
+              // text
+
 
 
               ]
